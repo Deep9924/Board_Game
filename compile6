@@ -1,0 +1,7 @@
+echo "Removing old compiled files..."
+rm TestTile6 TestTileMoney6 TestTileDice6 TestTilePoints6 TestTileBomb6 A6 TestCenterDouble6 TestCenter6
+echo "Compiling TestTile6 (Part A)..."
+echo "Compiling Game..."
+g++ Dice.cpp Player.cpp CellId.cpp CellChooser.cpp Tile.cpp TileMoney.cpp TileDice.cpp TilePoints.cpp TileBomb.cpp Board.cpp BoardSize.cpp AvailableTiles.cpp Game.cpp Main.cpp -o A6
+echo "Compiling TestTileBomb6 (Part F)..."
+echo "Finished"
